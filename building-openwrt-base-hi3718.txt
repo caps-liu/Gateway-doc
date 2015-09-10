@@ -11,7 +11,9 @@ BUILDING OpenWRT BASE on HI3718
 	
 	mkdir -p /openwrt
 	cd openwrt
-	svn co svn://svn.openwrt.org.cn/openwrt/trunk
+	
+	# Get chaos calmer version
+	git clone git://git.openwrt.org/15.05/openwrt.git chaos_calmer
 
 4. update feeds and packages of OpenWRT
 	
